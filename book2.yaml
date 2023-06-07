@@ -1,0 +1,8 @@
+---
+- name: Echo 2
+  hosts: localhost
+
+  tasks:
+          - name: print hello
+            debug:
+                    msg: This is the second playbook
