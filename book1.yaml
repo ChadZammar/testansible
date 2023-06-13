@@ -1,6 +1,6 @@
 ---
 - name: Echo
-  hosts: localhost
+  hosts: rhel_test_host
 
   tasks:
           - name: print hello
